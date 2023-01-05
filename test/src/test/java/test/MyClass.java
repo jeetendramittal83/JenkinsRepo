@@ -9,7 +9,7 @@ public class MyClass {
 		// TODO Auto-generated method stub
 		System.out.println("hello jenkins");
 		System.out.println("hello jenkins happy new year");
-
+		System.out.println("hello jenkins auto run from git hub");
 	}
 
 }
