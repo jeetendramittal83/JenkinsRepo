@@ -8,6 +8,7 @@ public class MyClass {
 	public void test1() {
 		// TODO Auto-generated method stub
 		System.out.println("hello jenkins");
+		System.out.println("hello jenkins happy new year");
 
 	}
 
