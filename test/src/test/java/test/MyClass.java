@@ -15,7 +15,7 @@ public class MyClass {
 		System.out.println("hello jenkins pipeline");
 		System.out.println("hello jenkins pipeline");
 		System.out.println("hello jenkins pipeline");
-		System.out.println("hello jenkins pipeline");
+
 		
 	}
 
