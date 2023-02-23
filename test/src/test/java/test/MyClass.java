@@ -11,7 +11,6 @@ public class MyClass {
 		System.out.println("hello jenkins happy new year");
 		System.out.println("hello jenkins auto run from git hub");
 		System.out.println("hello jenkins pipeline");
-		
 		System.out.println("hello jenkins pipeline");
 	}
 
