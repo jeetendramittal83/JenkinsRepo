@@ -2,8 +2,17 @@ pipeline {
     agent any
 
     stages {
+        
+        stage('checkout') {
+            steps {
+                git branch: 'main', credentialsId: 'fecd2f2e-6777-4ca9-bf67-e0c4bd988cb8', url: 'https://github.com/jeetendramittal83/JenkinsRepo.git'
+                echo 'Building..'
+            }
+        }
         stage('Build') {
             steps {
+                bat '''cd test
+                mvn clean test'''
                 echo 'Building..'
             }
         }
